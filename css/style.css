@@ -111,23 +111,6 @@ h2 {
     transition: background .5s;
 }
 
-.btn-primary {
-    background: #7ea4e8;
-}
-
-.btn-primary:hover {
-    background: #6787c2;
-}
-
-.btn-default {
-    background: #6a7079;
-}
-
-.btn-default:hover {
-    background: #474c52;
-    color: #ffffff;
-}
-
 /*=============speakers==============*/
 
 #description_posters {
@@ -149,52 +132,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-.section-tabs {
-    border: 3px solid #ececec;
-    border-radius: 5px;
-}
-
-.section-tabs .nav-tabs li:not(.active) {
-    background: #ececec;
-}
-
-.section-tabs .nav-tabs.nav-justified li a,
-.section-tabs .nav-tabs.nav-justified li.active a,
-.section-tabs .nav-tabs.nav-justified li.active a:focus,
-.section-tabs .nav-tabs.nav-justified li.active a:hover {
-    border-radius: 0;
-    border: none;
-    font-family: 'Cormorant', serif;
-    font-size: 18px;
-    font-weight: 700;
-    outline: 0;
-}
-
-.section-tabs .nav-tabs li.active a {
-    color: #9097a1;
-}
-
-.section-tabs .tab-content {
-    padding: 25px 20px;
-
-}
-
-.section-tabs .tab-content ul {
-    padding-left: 10px;
-}
-
-.section-tabs .tab-content ul li {
-    line-height: 30px;
-}
-
-.section-tabs .tab-content ul li i {
-    font-size: 15px;
-    color: #2cc7c1;
-    margin-right: 10px;
-}
-
-.nav-tabs li a {
-    color: #abb1ba;
+.picture {
+    margin-top: -50px;
 }
 
  
@@ -245,6 +184,11 @@ h2 {
     }
 }
 
+@media only screen and (max-width: 991px) {
+    .picture {
+        margin-top: 0;
+    }
+}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 960px) {
