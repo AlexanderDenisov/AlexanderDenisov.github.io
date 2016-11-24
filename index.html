@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="ru">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	
+
 	<title>SHiFT! Косметические средства по уходу за волосами, ногтями и кожей</title>
+	
 	<link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cormorant|Press+Start+2P" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-	
-
-	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="css/style.css" rel="stylesheet">
 
 
@@ -27,59 +29,56 @@
 			<![endif]-->
 		</head>
 		<body>
-			<!-- <div class="container"> -->
-			<section class="background">
+			<div class="background">
 				<div class="content-wrapper">
-					<ul id="scene"
-					data-origin-x="0.0"
-					data-origin-y="1.0">
-					<li class="layer" data-depth="0.20"><p class="logo">
-						<img src="img/shift.png" alt="logo">
-					</p></li>
-					<li class="layer" data-depth="0.40"><p class="content-title">SHiFT! CosmetiC</p></li>
-					<li class="layer" data-depth="0.60"><p class="content-subtitle">КЕРАТИН, КОЛЛАГЕН, ЭЛАСТИН ДЛЯ КРАСОТЫ ВАШИХ ВОЛОС И МОЛОДОСТИ КОЖИ</p></li>
-				</ul>
+					<ul id="scene" class="scene">
+						<li class="layer" data-depth="0.00"></li>
+						<li class="layer" data-depth="0.20"><img class="logo img-responsive" src="img/shift.png" alt="logo">
+						</li>
+						<li class="layer" data-depth="0.40"><h1 class="content-title">SHiFT! CosmetiC</h1></li>
+						<li class="layer" data-depth="0.60"><h2 class="content-subtitle">КЕРАТИН, КОЛЛАГЕН, ЭЛАСТИН ДЛЯ КРАСОТЫ ВАШИХ ВОЛОС И МОЛОДОСТИ КОЖИ</h2></li>
+					</ul>	
+				</div>
 			</div>
-		</section>
-		<section class="background">
-			<div class="content-wrapper">
-				<ul id="scene2">
-					<li class="layer" data-depth="0.40"><p class="content-title">Косметический Кератин SHiFT!</p></li>
-					<li class="layer" data-depth="0.60"><p class="content-subtitle">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ut massa mattis nibh semper pretium.</p></li>
-				</ul>
-			</div>
-		</section>
 
-		<section class="background">
-			<div class="content-wrapper">
-				<p class="content-title">Косметический Коллаген SHiFT!</p>
-				<p class="content-subtitle">Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at nibh aliquam dapibus.</p>
+			<div class="background">
+				<div class="content-wrapper">
+					<ul id="scene2" class="scene">
+						<li class="layer" data-depth="0.40"><h1 class="content-title">Кератин косметический SHiFT!</h1></li>
+						<li class="layer" data-depth="0.60"><h2 class="content-subtitle">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ut massa mattis nibh semper pretium.</h2></li>
+					</ul>
+				</div>
 			</div>
-		</section>
 
-		<section class="background">
-			<div class="content-wrapper">
-				<p class="content-title">Косметический Эластин SHiFT!</p>
-				<p class="content-subtitle">Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at nibh aliquam dapibus.</p>
+			<div class="background">
+				<div class="content-wrapper">
+					<p class="content-title">Коллаген косметический SHiFT!</p>
+					<p class="content-subtitle">Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at nibh aliquam dapibus.</p>
+				</div>
 			</div>
-		</section>
-		<!-- </div> -->
 
-		<!-- jQuery -->
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
-		<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
-		<!-- Bootstrap JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-		<script src="js/index.js"></script>
-		<script src="js/parallax.min.js"></script>
-		<script type="text/javascript">
-			var scene = document.getElementById('scene');
-			var parallax = new Parallax(scene);
-		</script>
-		<script type="text/javascript">
-			var scene = document.getElementById('scene2');
-			var parallax = new Parallax(scene2);
-		</script>
-	</body>
-	</html>
+			<div class="background">
+				<div class="content-wrapper">
+					<p class="content-title">Эластин косметический SHiFT!</p>
+					<p class="content-subtitle">Nullam tristique urna sed tellus ornare congue. Etiam vitae erat at nibh aliquam dapibus.</p>
+				</div>
+			</div>
+
+			<!-- jQuery -->
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+			<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+			<!-- Bootstrap JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+			<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+			<script src="js/index.js"></script>
+			<script src="js/parallax.min.js"></script>
+			<script type="text/javascript">
+				var scene = document.getElementById('scene');
+				var parallax = new Parallax(scene);
+			</script>
+			<script type="text/javascript">
+				var scene = document.getElementById('scene2');
+				var parallax = new Parallax(scene2);
+			</script>
+		</body>
+		</html>
