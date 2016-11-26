@@ -4,7 +4,7 @@ html, body {
 }
 
 .background {
-  background: #fff;
+  background: #000;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -32,7 +32,7 @@ html, body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .background:first-child {
-  background-image: url(../img/woman-177.jpg);
+  background-image: url(../img/mainbackground12.png);
   -webkit-transform: translateY(-15vh);
   transform: translateY(-15vh);
 }
@@ -93,33 +93,57 @@ html, body {
   transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
 }
 .content-title {
+  color: rgb(242, 224, 167);
+  font-family: "Lobster";
   line-height: 1.5;
   font-size: 5em;
   text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
   margin-top: -0.7em;
   position: absolute;
   width: 100%;
-  top: 60%;
-  -webkit-animation: content 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -moz-animation: content 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  animation: content 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  top: 50%;
 }
 .content-subtitle {
-  font-size: 2vh;
+  color: rgb(242, 224, 167);
+  font-size: 2em;
   line-height: 1.5;
   text-transform: uppercase;
   text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
   margin-top: -0.7em;
   position: absolute;
   width: 60%;
-  top: 70%;
+  top: 60%;
   left: 20%;
 }
 .logo{
-  margin-top: -0.7em;
+  background: url(../img/7-1.png) center no-repeat;
   position: relative;
+  height: 100%;
+  width: auto;
+  top: -15%;
+  /*margin-top: -0.7em;
+  position: absolute;
   top: 30%;
-  left: 40%; 
+  left: 40%; */
+}
+.woman{
+  background: url(../img/woman-1771.png) center no-repeat;
+  position: relative;
+  height: 100%;
+  width: auto;
+  top: -5%;
+  left: 15%
+  /*margin-top: -0.7em;
+  position: absolute;
+  top: 30%;
+  left: 40%; */
+}
+.sky {
+  background: url(../img/universe.jpg) center no-repeat;
+  position: relative;
+  height: 100%;
+  width: auto;
+  background-size: cover;
 }
 .scene,
 .layer {
